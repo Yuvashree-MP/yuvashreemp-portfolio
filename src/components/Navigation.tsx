@@ -53,7 +53,7 @@ const Navigation = () => {
             className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent cursor-pointer"
             onClick={() => scrollToSection('hero')}
           >
-            MY
+            Yuva
           </div>
           
           {/* Desktop Navigation */}
