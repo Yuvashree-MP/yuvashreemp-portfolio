@@ -42,7 +42,7 @@ const About = () => {
     label: "CGPA",
     description: "Academic Excellence"
   }, {
-    number: "10+",
+    number: "3+",
     label: "Projects",
     description: "Completed Successfully"
   }, {
