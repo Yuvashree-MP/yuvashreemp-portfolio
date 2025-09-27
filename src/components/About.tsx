@@ -46,7 +46,7 @@ const About = () => {
     label: "Projects",
     description: "Completed Successfully"
   }, {
-    number: "5+",
+    number: "3+",
     label: "Technologies",
     description: "Mastered"
   }, {
