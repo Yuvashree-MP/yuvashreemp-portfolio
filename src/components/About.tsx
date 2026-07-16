@@ -63,7 +63,9 @@ const About = () => {
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
             AI & Data Science graduate (CGPA 8.6) with two Scopus-indexed publications in applied NLP and deep learning,
             published in IEEE international conference proceedings. I bring a research-driven, detail-oriented approach to
-            every AI/ML and data science challenge, with a strong drive to keep learning and growing in the field.
+            every AI/ML or data science role, with a strong drive to keep learning and growing in the field. I envision a
+            future where AI and data science are catalysts for positive social change, and I am committed to building
+            intelligent systems that are ethical, inclusive, and genuinely beneficial to humanity.
           </p>
         </div>
         
