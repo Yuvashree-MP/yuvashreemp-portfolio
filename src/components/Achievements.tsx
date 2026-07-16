@@ -21,18 +21,18 @@ const Achievements = () => {
     },
     {
       icon: Presentation,
-      title: "Industry Presentations",
-      subtitle: "Project Showcase",
-      description: "Delivered comprehensive AI project presentations to industry mentors, demonstrating technical expertise and communication skills.",
-      category: "Presentation",
+      title: "ICESC 2025 Publication",
+      subtitle: "Scopus-Indexed IEEE Conference",
+      description: "\"EmoCare: A Lightweight Emotion-Aware Chatbot for Mental Health Support Using Multi-LLM Context Escalation\" — 6th International Conference on Electronics and Sustainable Communication Systems (ICESC 2025).",
+      category: "Publication",
       color: "text-green-400"
     },
     {
       icon: Award,
-      title: "Campus Leadership",
-      subtitle: "Workshop & Hackathon Leader",
-      description: "Led various campus workshops and hackathons, fostering collaborative learning and innovation in AI and data science domains.",
-      category: "Leadership",
+      title: "ICIDCA 2025 Publication",
+      subtitle: "Scopus-Indexed IEEE Conference",
+      description: "\"Sentiment-Aware BiLSTM–Attention Model for Depression Detection\" — 7th International Conference on Innovative Data Communication Technologies and Application (ICIDCA 2025).",
+      category: "Publication",
       color: "text-purple-400"
     }
   ];

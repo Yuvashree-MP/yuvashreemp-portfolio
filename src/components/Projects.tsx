@@ -5,26 +5,36 @@ import { Calendar, ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Deep Learning for Depression Prediction",
-      period: "Jan 2025 - Feb 2025",
-      description: "Developed an AI model using LSTM and attention mechanisms to identify depression cues from large textual datasets. The model enhances user understanding and provides valuable insights for empathetic client communication and need-based outreach strategies.",
-      technologies: ["Python", "LSTM", "NLP", "Deep Learning", "Attention Mechanisms"],
+      title: "Depression Detection — BiLSTM + Attention + Sentiment Fusion",
+      period: "Nov 2024 - Dec 2024",
+      description: "Designed a hybrid BiLSTM + attention + sentiment-polarity model to detect depressive content in ~20,000 Reddit posts. Achieved 90.2% accuracy, 91.8% F1-score, and 0.955 AUC-ROC, outperforming a baseline LSTM (F1 85.4%, AUC 0.891).",
+      technologies: ["Python", "TensorFlow/Keras", "BiLSTM", "Attention Mechanisms", "TextBlob"],
       type: "Research Project",
-      status: "Completed"
+      status: "Completed",
+      github: "https://github.com/Yuvashree-MP/depression-detection-biLSTM"
     },
     {
-      title: "EmoCare - Mental Health Chatbot",
+      title: "EmoCare — Multi-LLM Mental Health Chatbot",
       period: "July 2025 - Aug 2025", 
-      description: "Collaborated on developing a user-focused chatbot utilizing multiple AI models to enhance emotional engagement. The solution emphasizes privacy, empathy, and adaptive support, making it valuable for building customer trust and retention.",
-      technologies: ["AI Models", "Chatbot Development", "Emotional AI", "Privacy-First Design"],
-      type: "Collaborative Project",
-      status: "Completed"
+      description: "Built an emotion-aware chatbot routing across 4 LLMs (Mistral-7B, LLaMA 3.3, DeepSeek-R1, Cohere Command) with rule-based crisis/emotion detection and escalation logic. Achieved 97% response-completion rate, 4.6/5 empathy score, and deployed on-device via Streamlit for privacy.",
+      technologies: ["Python", "Streamlit", "LangChain", "Multi-LLM APIs", "NLP"],
+      type: "Research Project",
+      status: "Completed",
+      github: "https://github.com/Yuvashree-MP/EmoCare-AI-Mental-Health-Chatbot"
     },
     {
-      title: "GPS-Based Customer Intelligence System",
+      title: "Cyberbullying Detection on Twitter — Final Year Project",
+      period: "Jan 2026 - Apr 2026",
+      description: "Built an ML pipeline on 47,000 balanced tweets using TF-IDF features, testing multiple classifiers (Random Forest, XGBoost, Gradient Boosting, AdaBoost, Logistic Regression); selected an ensemble model combining Random Forest, XGBoost, and Logistic Regression for the best accuracy. Extended the system with real-time tweets and deployed it as a multilingual (English/Arabic/Bengali/French) Streamlit app.",
+      technologies: ["Python", "Scikit-learn", "XGBoost", "Streamlit", "TF-IDF"],
+      type: "Research Project",
+      status: "In Progress"
+    },
+    {
+      title: "Customer Location-Based Notification System",
       period: "April 2025 - June 2025",
-      description: "As an AI Research Intern at Sri Gurubhyo Technologies, developed a comprehensive data pipeline to identify and retrieve customer information using GPS data. Leveraged geolocation coordinates to map customer locations, filter region-specific data, and enhance service targeting capabilities.",
-      technologies: ["GPS Data", "Data Pipeline", "Geolocation", "Python", "Data Analysis"],
+      description: "As an AI Research Intern, contributed research and system design input for a team-built, geospatially-aware notification system (FastAPI + MongoDB). Worked on the MongoDB data layer including geospatial (2dsphere) indexing used for real-time proximity-based detection. Served as the primary point of communication with project stakeholders.",
+      technologies: ["FastAPI", "MongoDB", "Geospatial Indexing", "Python"],
       type: "Internship Project",
       status: "Completed",
       company: "Sri Gurubhyo Technologies, Hyderabad"

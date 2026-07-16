@@ -48,10 +48,10 @@ const Hero = () => {
                 <a href="tel:9025564678" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
                   <Phone className="w-5 h-5" />
                 </a>
-                <a href="#" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
+                <a href="https://linkedin.com/in/yuvashree-mp" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
+                <a href="https://github.com/Yuvashree-MP" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
                   <Github className="w-5 h-5" />
                 </a>
               </div>
