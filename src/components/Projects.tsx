@@ -125,16 +125,19 @@ const Projects = () => {
                       ))}
                     </div>
                     
-                    <div className="flex gap-4">
-                      <button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200">
-                        <Github className="w-4 h-4" />
-                        View Code
-                      </button>
-                      <button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200">
-                        <ExternalLink className="w-4 h-4" />
-                        Learn More
-                      </button>
-                    </div>
+                    {project.github && (
+                      <div className="flex gap-4">
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
+                        >
+                          <Github className="w-4 h-4" />
+                          View Code
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </div>
               </CardContent>

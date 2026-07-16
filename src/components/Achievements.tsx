@@ -101,21 +101,21 @@ const Achievements = () => {
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-              7+
+              2
             </div>
-            <div className="text-sm text-muted-foreground">Certifications</div>
+            <div className="text-sm text-muted-foreground">IEEE Publications</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-              3+
+              4+
             </div>
             <div className="text-sm text-muted-foreground">Major Projects</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-              1
+              5+
             </div>
-            <div className="text-sm text-muted-foreground">Symposium Led</div>
+            <div className="text-sm text-muted-foreground">Certifications</div>
           </div>
         </div>
       </div>
