@@ -7,47 +7,45 @@ const Skills = () => {
     {
       icon: Code,
       title: "Programming Languages",
-      skills: ["Python", "SQL", "Java"],
+      skills: ["Python", "SQL"],
       color: "text-blue-400"
     },
     {
       icon: Database,
-      title: "Data Science & ML",
-      skills: ["NumPy", "Pandas", "TensorFlow", "Statistics", "Machine Learning"],
+      title: "ML / DL Concepts",
+      skills: ["Scikit-learn", "TensorFlow/Keras", "NLP", "TF-IDF", "Sentiment Analysis", "BiLSTM", "Attention Mechanisms", "Gradient Boosting", "Random Forest"],
       color: "text-green-400"
     },
     {
       icon: BarChart3,
-      title: "Analytics & Visualization",
-      skills: ["Microsoft Excel", "Power BI", "Data Visualization", "PowerPoint"],
+      title: "Libraries",
+      skills: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "TextBlob"],
       color: "text-purple-400"
     },
     {
       icon: Cloud,
-      title: "Cloud & Tools",
-      skills: ["AWS", "Google Workspace", "CRM Systems", "Notion"],
+      title: "Data & Cloud",
+      skills: ["AWS Cloud Practitioner", "Power BI", "MongoDB", "Data Processing"],
       color: "text-orange-400"
     },
     {
       icon: Palette,
-      title: "Design Tools",
-      skills: ["Figma", "Canva"],
+      title: "Frameworks & Tools",
+      skills: ["Streamlit", "LangChain", "Jupyter Notebook", "VS Code"],
       color: "text-pink-400"
     },
     {
       icon: Settings,
       title: "Development",
-      skills: ["Version Control", "Data Pipeline", "API Integration"],
+      skills: ["Git", "GitHub", "Notion", "Excel"],
       color: "text-cyan-400"
     }
   ];
 
   const certifications = [
-    "Statistics 101 - Cognitive Class.ai (IBM)",
-    "Data Science Methodology - Cognitive Class.ai (IBM)", 
-    "Data Analysis with Python - Cognitive Class.ai (IBM)",
     "AWS Cloud Practitioner Essentials - Coursera",
-    "Data Visualization with Python - Cognitive Class.ai (IBM)",
+    "Data Analysis with Python - IBM Cognitive Class",
+    "Data Science Methodology and Statistics - IBM Cognitive Class",
     "Python For Data Science (Elite) - NPTEL",
     "Data Mining (Elite) - NPTEL"
   ];

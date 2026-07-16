@@ -29,7 +29,7 @@ const Hero = () => {
                 <h2 className="text-2xl lg:text-3xl text-muted-foreground font-light">AI & Data Science Student</h2>
               </div>
               
-              <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">Driven AI & Data Science undergraduate with fundamentals in machine learning, deep learning, and data visualization. Transforming data into actionable insights with strong communication and leadership skills.</p>
+              <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">AI & Data Science graduate (CGPA 8.6) with two Scopus-indexed IEEE publications in applied NLP and deep learning. Research-driven and detail-oriented, with hands-on experience building ML/DL systems and leading cross-functional teams.</p>
               
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                 <Button size="lg" className="bg-gradient-primary hover:shadow-glow transition-all duration-300" onClick={() => scrollToSection('projects')}>
@@ -48,10 +48,10 @@ const Hero = () => {
                 <a href="tel:9025564678" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
                   <Phone className="w-5 h-5" />
                 </a>
-                <a href="#" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
+                <a href="https://linkedin.com/in/yuvashree-mp" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
+                <a href="https://github.com/Yuvashree-MP" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-all duration-300 hover:shadow-glow">
                   <Github className="w-5 h-5" />
                 </a>
               </div>
