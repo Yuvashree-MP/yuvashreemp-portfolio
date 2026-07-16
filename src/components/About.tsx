@@ -61,9 +61,9 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-            A passionate AI & Data Science student on a mission to transform complex data into meaningful insights. 
-            I believe in the power of technology to create positive change and am dedicated to building intelligent 
-            solutions that make a real difference in the world.
+            AI & Data Science graduate (CGPA 8.6) with two Scopus-indexed publications in applied NLP and deep learning,
+            published in IEEE international conference proceedings. I bring a research-driven, detail-oriented approach to
+            every AI/ML and data science challenge, with a strong drive to keep learning and growing in the field.
           </p>
         </div>
         
