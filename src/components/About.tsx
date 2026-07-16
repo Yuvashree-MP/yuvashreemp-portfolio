@@ -62,10 +62,10 @@ const About = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
             I am an AI & Data Science graduate with a strong foundation across the field, having built projects spanning
-            core AI, machine learning, data science, NLP, deep learning, and real-world analytics. I am deeply passionate
+            AI, machine learning, data science, NLP, deep learning, and real-world analytics. I am deeply passionate
             about AI, ML, and data science, and I bring both curiosity and a purpose-driven mindset to every problem I
-            tackle. I believe technology is at its best when it helps people, and I am always eager to explore, learn, and
-            create intelligent solutions that make a meaningful difference in people's lives.
+            tackle. I believe technology is at its best when it helps people, and I love exploring new ideas, learning as
+            I go, and creating intelligent solutions that make a meaningful difference in people's lives.
           </p>
         </div>
         
