@@ -28,7 +28,7 @@ const Projects = () => {
       description: "Built an ML pipeline on 47,000 balanced tweets using TF-IDF features, testing multiple classifiers (Random Forest, XGBoost, Gradient Boosting, AdaBoost, Logistic Regression); selected an ensemble model combining Random Forest, XGBoost, and Logistic Regression for the best accuracy. Extended the system with real-time tweets and deployed it as a multilingual (English/Arabic/Bengali/French) Streamlit app.",
       technologies: ["Python", "Scikit-learn", "XGBoost", "Streamlit", "TF-IDF"],
       type: "Research Project",
-      status: "In Progress"
+      status: "Completed"
     },
     {
       title: "Customer Location-Based Notification System",
