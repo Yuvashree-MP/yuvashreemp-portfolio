@@ -38,6 +38,14 @@ const Projects = () => {
       type: "Internship Project",
       status: "Completed",
       company: "Sri Gurubhyo Technologies, Hyderabad"
+    },
+    {
+      title: "Customer Behavioral Trends — End-to-End Retail Analytics",
+      period: "Jul 2025 - Aug 2025",
+      description: "Cleaned and explored a retail customer dataset in Python (Pandas), handling missing values and running EDA on shopping patterns. Analyzed customer segments and revenue trends using SQL to answer key business questions, and built an interactive Power BI dashboard to visualize sales and customer behavior insights.",
+      technologies: ["Python", "Pandas", "SQL", "Power BI"],
+      type: "Analytics Project",
+      status: "Completed"
     }
   ];
 
@@ -60,6 +68,8 @@ const Projects = () => {
         return 'bg-blue-500/10 text-blue-400';
       case 'Internship Project':
         return 'bg-orange-500/10 text-orange-400';
+      case 'Analytics Project':
+        return 'bg-cyan-500/10 text-cyan-400';
       default:
         return 'bg-muted text-muted-foreground';
     }
